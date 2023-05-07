@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
+
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    /* COLORS */
+
+    --main-color: #AD1FEA;
+    --purple: #AD1FEA;
+    --blue: #4661E6;
+    --dot-blue: #373F68;
+    --white: #FFFFFF;
+    --gray: #F2F4FF;
+    --grey: #F7F8FD;
+    --pro-blue: #3A4374;
+    --primary-dark: #3A4374;
+    --pre-blue: #647196;
+    --pre-dark: #647196;
+    --orange: #F49F85;
+    --sky-blue: #62BCFA;
+    --red: #D73737;
+    --primary-beta: #F2F4FE;
+    --primary-case: #CFD7FF;
+    /* FONT FAMILY */
+
+    --just: 'Jost', sans-serif;
+
+    --n-radius: 10px;
+}
+body {
+    background: #F2F2F2;
+    padding: 50px 0 0 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track
+{
+    background: var(--white);
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+::-webkit-scrollbar-thumb
+{
+    background: var(--blue);
+    border-radius: 10px;
+    border: 3px solid var(--white);
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: #7c7c7c;
+}
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1140px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
